@@ -14,10 +14,15 @@ h1{
     color: rgb(102, 0, 51)
 }
 
-h3{
+.box-1 h3{
     background-color: lightblue;
     color: red;
     padding: 1%;
+    font-style: italic;
+    text-decoration: line-through;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    word-spacing: 0.8em;
 }
 
 /* div{
@@ -55,4 +60,122 @@ p{
     /* padding: 15px 10px 15px 10px; */
 
     padding: 15px 10px;
+}
+
+#measurement{
+    font-size: 15px;
+}
+
+#rem-learning{
+    font-size: 1.2em;
+}
+
+.categories{
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.categories h2{
+    text-align: center;
+}
+
+.categories ul{
+    padding: 0;
+    list-style: none;
+}
+
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+
+.categories a:hover{
+    color: red;
+}
+
+.categories li{
+    padding-bottom: 6px;
+    border-bottom: 1px dotted #333;
+}
+
+.my-form{
+    padding: 20px;
+}
+
+.my-form .form-group{
+    padding-bottom: 15px;
+}
+
+.my-form label{
+    display: block;
+}
+
+.my-form input[type="text"], .my-form textarea{
+    padding: 8px;
+    width: 100%;
+}
+
+.button{
+    padding: 10px 15px;
+    border: none;
+    background-color: darkblue;
+    color: white;
+    border-radius: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+}
+
+.button:hover {
+    background-color: darkmagenta;
+    cursor: pointer;
+}
+
+.block{
+    float: left;
+    width: 33.333%;
+}
+
+.clearfix{
+    clear: both;
+}
+
+#main__block{
+    float: left;
+    width: 70%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#side__bar{
+    float: right;
+    width: 30%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.position-box{
+    width: 800px;
+    height: 500px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.position-box h1{
+    position: absolute;
+    top: 140px;
+    left: 200px;
+}
+
+.position-box h2{
+    position: absolute;
+    bottom: 40px;
+    right: 200px;
+}
+
+.fixed-button{
+    position: fixed;
+    top: 20px;
 }
