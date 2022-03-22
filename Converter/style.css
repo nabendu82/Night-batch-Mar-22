@@ -1,0 +1,8 @@
+.card-block{
+    color: white;
+}
+
+.card-primary{
+    background-color: darkmagenta !important;
+    border-color: darkmagenta !important;
+}
